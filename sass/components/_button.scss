@@ -34,8 +34,7 @@
 // ___FOOTER_____
 
 .btn-form {
-    display: flex;
-    align-items: center;
+    @include flex;
     gap: 10px;
     min-width: 200px;
 

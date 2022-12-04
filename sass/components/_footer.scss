@@ -89,8 +89,7 @@
 
 .footer-form {
     position: relative;
-    display: flex;
-    align-items: center;
+    @include flex;
     gap: 12px;
 }
 

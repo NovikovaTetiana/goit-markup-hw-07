@@ -23,8 +23,7 @@
 }
 
 .occupation__heading {
-    display: flex;
-    align-items: center;
+    @include flex;
     justify-content: center;
 
     position: absolute;
