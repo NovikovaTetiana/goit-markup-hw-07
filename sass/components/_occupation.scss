@@ -2,7 +2,7 @@
     padding: 94px 0;
 }
 
-.occupation-title {
+.occupation__title {
     margin-bottom: 50px;
 
     font-size: 36px;
@@ -12,17 +12,17 @@
     color: var(--main-color-text);
 }
 
-.occupation-list {
+.occupation__list {
     display: flex;
     gap: 30px;
 }
 
-.occupation-item {
+.occupation__item {
     position: relative;
     width: calc((100% - 60px) / 3);
 }
 
-.occupation-heading {
+.occupation__heading {
     display: flex;
     align-items: center;
     justify-content: center;
